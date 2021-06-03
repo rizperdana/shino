@@ -5,18 +5,18 @@ ruby '3.0.0'
 
 gem 'rails', '~> 6.1.3', '>= 6.1.3.2'
 
-gem 'bootsnap', '>= 1.1.0', require: false
+gem 'bootsnap', require: false
 gem 'business_time'
-gem 'coffee-rails', '~> 4.2'
-gem 'jbuilder', '~> 2.5'
-gem 'paranoia', '~> 2.1'
+gem 'coffee-rails'
+gem 'jbuilder'
+gem 'paranoia'
 gem 'pg', '>= 0.18', '< 2.0'
-gem 'puma', '~> 3.11'
-gem 'rails_admin', '~> 2.0'
-gem 'sass-rails', '~> 5.0'
-gem 'turbolinks', '~> 5'
-gem 'uglifier', '>= 1.3.0'
-gem 'sequenced', '~> 3.2'
+gem 'puma'
+gem 'rails_admin'
+gem 'sass-rails'
+gem 'turbolinks'
+gem 'uglifier'
+gem 'sequenced'
 gem 'ancestry'
 gem 'pdfkit'
 gem 'mimemagic', git: 'https://github.com/mimemagicrb/mimemagic', ref: '64b60d1'
@@ -46,10 +46,10 @@ gem 'api-pagination'
 gem 'kaminari'
 gem 'rest-client'
 gem 'fcm'
-gem 'google-cloud-storage', '~> 1.11', require: false
-gem 'image_processing', '~> 1.0'
+gem 'google-cloud-storage', require: false
+gem 'image_processing'
 gem 'mail'
-gem 'parallel', '~> 1.19', '>= 1.19.1'
+gem 'parallel', '>= 1.19.1'
 gem 'prometheus-client'
 gem 'rack-cors'
 gem 'whenever', require: false
@@ -72,13 +72,13 @@ end
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller'
-  gem 'listen', '>= 3.0.5', '< 3.2'
+  gem 'listen'
   gem 'rename'
   gem 'rubocop', require: false
   gem 'rubocop-performance'
   gem 'rubocop-rails'
   gem 'spring'
-  gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'spring-watcher-listen'
   gem 'web-console', '>= 3.3.0'
 end
 
